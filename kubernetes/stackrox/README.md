@@ -27,3 +27,4 @@ helm template -n stackrox stackrox-secured-cluster-services stackrox/stackrox-se
  --set sensor.resources.limits.cpu=500m   --set env.openshift=4  >secure.yaml
 
 ```
+ 
